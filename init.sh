@@ -218,7 +218,7 @@ BLUE "Installing postgresql..."
 sudo apt-get install -y postgresql
 
 BLUE "Installing msf..."
-curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \\chmod 755 msfinstall && \\./msfinstall
+curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
 
 RED "create a tools folder in ~/"
 mkdir ~/tools
